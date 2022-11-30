@@ -25,8 +25,6 @@ Download and install [Ti CE program](https://education.ti.com/en/products/comput
 If calulator is in exam mode, right click on it and select `Quit exam mode...`.
 Then select the two files named `NOTES.8xp` and `TFILES.8xp` (the note program) and drag them in your calculator in the Ti CE app. A window will appear, select `ARCHIVE`, NOT `RAM` mode for storing these programs. Click `OK`. Wait till the end (usually very fast, you don't even see it).
 
-* Install wine
-
 ### Wine install
 
 #### Ubuntu:
