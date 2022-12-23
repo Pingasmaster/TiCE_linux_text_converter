@@ -13,7 +13,7 @@ Work with all the TI CE calculators:
 
 ## How?
 
-It uses the program `convtext.exe` found on the internet. iIt was initially compiled for windows, but it runs through wine.
+It uses the program `convtext.exe` found on the internet. It was initially compiled for windows, but it runs through wine.
 
 Prerequisites:
 * Install note program
@@ -23,7 +23,7 @@ Prerequisites:
 
 Download and install [Ti CE program](https://education.ti.com/en/products/computer-software/ti-connect-ce-sw) (only on windows), connect and turn on calculator. Make sure it has enough battery.
 If calulator is in exam mode, right click on it and select `Quit exam mode...`.
-Then select the two files named `NOTES.8xp` and `TFILES.8xp` (the note program) and drag them in your calculator in the Ti CE app. A window will appear, select `ARCHIVE`, NOT `RAM` mode for storing these programs. Click `OK`. Wait till the end (usually very fast, you don't even see it).
+Then select the two files named `NOTES.8xp` and `TFILES.8xp` (the note program) in the file explorer and drag them in your calculator in the Ti CE app. A window will appear, mmake sure to select `ARCHIVE` on the dropdown menu not the default `RAM` (redefining the mode for storing these programs will allow you to still find them where you put them after a reboot). Click `OK`. Wait till the end (usually very fast, you don't even see it).
 
 ### Wine install
 
@@ -36,7 +36,7 @@ sudo apt install -y wine64
 #### Arch linux:
 
 ```
-sudo pacman -Syu wine64
+sudo pacman -Syu wine64 --needed
 ```
 
 * Clone repo & cd
